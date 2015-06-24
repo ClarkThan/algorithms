@@ -1,7 +1,7 @@
 #InsertSort
 def insertSort(seq):
 	length = len(seq)
-	for i in range(1, length):
+	for i in xrange(1, length):
 		key = seq[i]
 		j = i - 1
 		while j >= 0 and seq[j] > key:
